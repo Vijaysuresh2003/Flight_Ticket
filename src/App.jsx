@@ -6,6 +6,7 @@ import Confirmation from './pages/Confirmation'
 import Navbar from './Component/Navbar'
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import BookingHistory from './pages/BookingHistory'
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             )
           }
         />
+        <Route path="/history" element={<BookingHistory />} />
       </Routes>
     </div>
   )

@@ -28,6 +28,9 @@ return (
                         <Link className="nav-link" to="/book">Book Ticket</Link>
                     </li>
                 )}
+                <li className="nav-item">
+  <Link className="nav-link" to="/history">History</Link>
+</li>
                 {!user ? (
                     <li className="nav-item">
                         <Link className="nav-link" to="/login">Login</Link>
